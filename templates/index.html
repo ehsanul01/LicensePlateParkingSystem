@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Parking Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1> Smart Parking System</h1>
+  <div class="menu">
+    <a href="/add">Add Vehicle</a> | <a href="/exit">Exit Vehicle</a>
+  </div>
+
+  <table>
+    <tr>
+      <th>ID</th><th>License Plate</th><th>Entry Time</th><th>Exit Time</th><th>Duration</th><th>Fee ($)</th>
+    </tr>
+    {% for v in vehicles %}
+      <tr>
+        <td>{{ v[0] }}</td>
+        <td>{{ v[1] }}</td>
+        <td>{{ v[2] }}</td>
+        <td>{{ v[3] or 'Still Parked' }}</td>
+        <td>{{ v[4] or '-' }}</td>
+        <td>{{ v[5] or '-' }}</td>
+      </tr>
+    {% endfor %}
+  </table>
+</body>
+</html>

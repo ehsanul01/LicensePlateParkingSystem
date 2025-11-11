@@ -99,19 +99,7 @@ Then open [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser 🚀
 
 ---
 
-## 🖼️ Screenshots (optional)
 
-You can add screenshots like these once the app is running locally:
-
-```
-![Dashboard](static/dashboard_preview.png)
-![Add Vehicle Page](static/add_vehicle_preview.png)
-![Exit Page](static/exit_vehicle_preview.png)
-```
-
-(Just place your screenshots in `/static` and update the image paths above.)
-
----
 
 ## 👨‍💻 Author
 

@@ -1,10 +1,10 @@
-# 🚗 License Plate Recognition & Smart Parking System
+#  License Plate Recognition & Smart Parking System
 
 An intelligent parking management system built with **Python, OpenCV, Flask, and SQL**, capable of detecting vehicle license plates automatically from images, storing entry/exit data, and calculating parking fees in real-time.
 
 ---
 
-## 🧩 Features
+## Features
 
 ✅ **Automatic Plate Detection** – Uses OpenCV & Tesseract OCR to detect and extract license plate numbers  
 ✅ **SQL Database Integration** – Stores all vehicle data with timestamps, durations, and fees  
@@ -14,7 +14,7 @@ An intelligent parking management system built with **Python, OpenCV, Flask, and
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 LicensePlateParkingSystem/
@@ -41,7 +41,7 @@ LicensePlateParkingSystem/
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### 1️⃣ Clone this repository
 ```bash
@@ -69,7 +69,7 @@ Then open [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser 🚀
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. Upload a car image (from `/add` page).  
 2. The system detects the license plate and stores it in an SQLite database.  
@@ -78,7 +78,7 @@ Then open [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser 🚀
 
 ---
 
-## 🖥️ Technologies Used
+##  Technologies Used
 
 - **Python 3.14**
 - **Flask** (for web framework)
@@ -89,7 +89,7 @@ Then open [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser 🚀
 
 ---
 
-## 📸 Future Enhancements
+##  Future Enhancements
 
 - Live camera feed for real-time detection  
 - Vehicle type classification (car, bike, truck)  
@@ -101,7 +101,7 @@ Then open [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser 🚀
 
 
 
-## 👨‍💻 Author
+##  Author
 
 **Ehsanul Haque**  
 🧠 Computer Science @ University at Buffalo  
